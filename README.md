@@ -1,4 +1,4 @@
-### Assembler Program with GUI
+git config --global alias.coa '!git add -A && git commit -m'### Assembler Program with GUI
 The assembler locates in ROM_DATA folder.
 
 To run the assembler, click *cgui* directly, or enter `./cgui` in terminal window.
@@ -19,6 +19,10 @@ It has a few Shortcut keys:
 
 ### u shell script
 This script is used to pull and push updates for GitHub. To use it to commit with message ("Commit messages" for example), in terminal window:
-```
+```git config --global alias.coa '!git add -A && git commit -m'
+# Only Run the following line at the first time
+git config --global alias.coa '!git add -A && git commit -m'
+
+# Pull and Update with the command below
 ./u "Commit messages"
 ```
