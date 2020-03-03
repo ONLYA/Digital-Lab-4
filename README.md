@@ -1,7 +1,9 @@
 ### Assembler Program with GUI
+The assembler locates in ROM_DATA folder.
+
 To run the assembler, click *cgui* directly, or enter `./cgui` in terminal window.
 
-**Note that this only works in Linux!**
+** Note that this only works in Linux! *cgui* is dependant to *compile* **
 
 This assembler is an Integrated Development Environment as it can create new, open, save and compile files. The compiled file will be copied into the clipboard and displayed in the output window.
 
