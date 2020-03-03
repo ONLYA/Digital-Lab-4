@@ -1,4 +1,4 @@
-git config --global alias.coa '!git add -A && git commit -m'### Assembler Program with GUI
+### Assembler Program with GUI
 The assembler locates in ROM_DATA folder.
 
 To run the assembler, click *cgui* directly, or enter `./cgui` in terminal window.
