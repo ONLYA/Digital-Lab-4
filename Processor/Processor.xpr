@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2015.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="5" Path="/home/s1645821/git/assessment2/Digital-Lab-4/Processor/Processor.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="25f00b44d6634be8835b3aff479053c1"/>
+    <Option Name="Part" Val="xc7a35tcpg236-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="EnableCoreContainerForIPI" Val="FALSE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/imports/sources_1/imports/new/Generic_counter.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/imports/imports/sources_1/imports/new/Generic_counter.v"/>
+          <Attr Name="ImportTime" Val="1542371278"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/Synch.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/new/Synch.v"/>
+          <Attr Name="ImportTime" Val="1540564409"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Reset_Mouse.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Reset_Mouse.v"/>
+          <Attr Name="ImportTime" Val="1582493736"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Remote_Mode.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Remote_Mode.v"/>
+          <Attr Name="ImportTime" Val="1582572592"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Read_Remote_Data.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Read_Remote_Data.v"/>
+          <Attr Name="ImportTime" Val="1582574373"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Mouse_Data.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Mouse_Data.v"/>
+          <Attr Name="ImportTime" Val="1582571217"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Microsoft_Mode.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Microsoft_Mode.v"/>
+          <Attr Name="ImportTime" Val="1582570448"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Data_Reporitng_Mode.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Data_Reporitng_Mode.v"/>
+          <Attr Name="ImportTime" Val="1582570230"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/VGAInterface.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/new/VGAInterface.v"/>
+          <Attr Name="ImportTime" Val="1540834020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/new/Mux_4_bit.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/imports/imports/new/Mux_4_bit.v"/>
+          <Attr Name="ImportTime" Val="1539268844"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Mouse_Coordinates.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Mouse_Coordinates.v"/>
+          <Attr Name="ImportTime" Val="1582498862"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/new/mouseTransmitter.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/new/mouseTransmitter.v"/>
+          <Attr Name="ImportTime" Val="1582498833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/new/mouseReciever.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/new/mouseReciever.v"/>
+          <Attr Name="ImportTime" Val="1582621853"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/MouseMasterSM.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/new/MouseMasterSM.v"/>
+          <Attr Name="ImportTime" Val="1582574168"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/Downloads/DecodingTheWorld_case.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/imports/imports/Downloads/DecodingTheWorld_case.v"/>
+          <Attr Name="ImportTime" Val="1539268493"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/Wrapper.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/new/Wrapper.v"/>
+          <Attr Name="ImportTime" Val="1582491397"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Transceiver.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/Transceiver.v"/>
+          <Attr Name="ImportTime" Val="1582572497"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/new/Top.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/imports/imports/new/Top.v"/>
+          <Attr Name="ImportTime" Val="1580396654"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/MousePosition.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/MousePosition.v"/>
+          <Attr Name="ImportTime" Val="1581593731"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/ButtonClicking.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/new/ButtonClicking.v"/>
+          <Attr Name="ImportTime" Val="1581525380"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/new/MouseWrapper.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Digital-Lab-4/Mouse2015/Mouse2015.srcs/sources_1/imports/Mouse.srcs/sources_1/new/MouseWrapper.v"/>
+          <Attr Name="ImportTime" Val="1582571468"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/assessment2/Digital-Lab-4/Microprocessor/Microprocessor.srcs/sources_1/new/ALU.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Microprocessor/Microprocessor.srcs/sources_1/new/ALU.v"/>
+          <Attr Name="ImportTime" Val="1583233300"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/assessment2/Digital-Lab-4/Microprocessor/Microprocessor.srcs/sources_1/new/Timer.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Microprocessor/Microprocessor.srcs/sources_1/new/Timer.v"/>
+          <Attr Name="ImportTime" Val="1583233300"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/assessment2/Digital-Lab-4/Microprocessor/Microprocessor.srcs/sources_1/new/ROM.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Microprocessor/Microprocessor.srcs/sources_1/new/ROM.v"/>
+          <Attr Name="ImportTime" Val="1583233300"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/assessment2/Digital-Lab-4/Microprocessor/Microprocessor.srcs/sources_1/new/RAM.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Microprocessor/Microprocessor.srcs/sources_1/new/RAM.v"/>
+          <Attr Name="ImportTime" Val="1583233300"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/assessment2/Digital-Lab-4/Microprocessor/Microprocessor.srcs/sources_1/new/Processor.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Microprocessor/Microprocessor.srcs/sources_1/new/Processor.v"/>
+          <Attr Name="ImportTime" Val="1583233300"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/assessment2/Digital-Lab-4/Microprocessor/Microprocessor.srcs/sources_1/new/LEDs.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Microprocessor/Microprocessor.srcs/sources_1/new/LEDs.v"/>
+          <Attr Name="ImportTime" Val="1583233300"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/git/assessment2/Digital-Lab-4/Microprocessor/Microprocessor.srcs/sources_1/new/Processor_wrapper.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Microprocessor/Microprocessor.srcs/sources_1/new/Processor_wrapper.v"/>
+          <Attr Name="ImportTime" Val="1583233300"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="MouseWrapper"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="MouseWrapper"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="9">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" SynthRun="synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+  </Runs>
+</Project>
