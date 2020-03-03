@@ -1,0 +1,5 @@
+#!/bin/sh
+# Firstly
+# git config --global alias.coa '!git add -A && git commit -m'
+rsync -avh --delete --progress '/home/s1625892/Digital Lab 4/Microprocessor/Microprocessor.srcs' /home/s1625892/DLgit/Microprocessor
+git pull;git coa "$*";git push
