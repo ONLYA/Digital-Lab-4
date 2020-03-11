@@ -1,0 +1,15 @@
+// Program Memory, start from pc=0
+     // setup:
+00000000
+00000000 // lwa 0h00
+     // loop:
+00001001
+00001000 // jal func
+00000010
+11000000 // swa 0hc0
+00000111
+00000010 // j loop
+     // func:
+00000000
+00000001 // lwa 0h01
+00001010 // return
