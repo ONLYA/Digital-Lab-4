@@ -391,38 +391,10 @@ module Processor(
             // If satisfy the condition, go to load PC state. (wait until the ADDR appears)
             IF_A_EQUALITY_B_GOTO:
             begin
-                case (ProgMemoryOut[7:4])
-                    EQUAL_TO:
-                    begin
-                        if (CurrRegA === CurrRegB)
-                            NextState   = LOAD_PC0;
-                        else
-                            NextProgCounter = CurrProgCounter + 2;
-                            NextState   = CHOOSE_OPP;
-                    end
-                    
-                    GREATER_THAN:
-                    begin
-                        if (CurrRegA > CurrRegB) 
-                            NextState   = LOAD_PC0;
-                        else
-                            NextProgCounter = CurrProgCounter + 2;
-                            NextState   = CHOOSE_OPP;
-                    end
-                    
-                    LESS_THAN:
-                    begin
-                        if (CurrRegA < CurrRegB)
-                            NextState   = LOAD_PC0;
-                        else
-                            NextProgCounter = CurrProgCounter + 2;
-                            NextState   = CHOOSE_OPP;
-                    end
-                    default:
-                    begin
-                        NextProgCounter = CurrProgCounter + 2;
-                        NextState   = CHOOSE_OPP;
-                    end
+                if (AluOut)
+                    NextState   = LOAD_PC0;
+                else
+                    NextState   = LOAD_PC1;
                 endcase
             end
             
