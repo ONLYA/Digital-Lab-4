@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/s1645821/git/assessment2/Digital-Lab-4/Processor/Processor.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" type="array" fp_name="mouse_interface/X_COORDINATE">
+      <obj_property name="ElementShortName">mouse_interface/X_COORDINATE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mouse_interface/X_COORDINATE[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="mouse_interface/Y_COORDINATE">
+      <obj_property name="ElementShortName">mouse_interface/Y_COORDINATE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mouse_interface/Y_COORDINATE[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="mouse_interface/interrupt">
+      <obj_property name="ElementShortName">mouse_interface/interrupt</obj_property>
+      <obj_property name="ObjectShortName">mouse_interface/interrupt</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="mouse_interface/SR">
+      <obj_property name="ElementShortName">mouse_interface/SR[0:0]</obj_property>
+      <obj_property name="ObjectShortName">mouse_interface/SR[0:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="mouse_interface/STATUS">
+      <obj_property name="ElementShortName">mouse_interface/STATUS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mouse_interface/STATUS[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

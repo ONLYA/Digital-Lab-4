@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s1645821/git/assessment2/Digital-Lab-4/Processor/Processor.sim/sim_1/impl/func/mouse_test_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module Data_Reporting_Mode
+INFO: [VRFC 10-311] analyzing module LEDs
+INFO: [VRFC 10-311] analyzing module Microsoft_Mode
+INFO: [VRFC 10-311] analyzing module MouseBusInterface
+INFO: [VRFC 10-311] analyzing module MouseMasterSM
+INFO: [VRFC 10-311] analyzing module MouseReceiver
+INFO: [VRFC 10-311] analyzing module MouseTransmitter
+INFO: [VRFC 10-311] analyzing module MouseWrapper
+INFO: [VRFC 10-311] analyzing module Mouse_Data
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-311] analyzing module Processor_wrapper
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-311] analyzing module Read_Remote_Data
+INFO: [VRFC 10-311] analyzing module Remote_Mode
+INFO: [VRFC 10-311] analyzing module Reset_Mouse
+INFO: [VRFC 10-311] analyzing module Timer
+INFO: [VRFC 10-311] analyzing module Transceiver
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s1645821/git/assessment2/Digital-Lab-4/Processor/Processor.srcs/sim_1/new/mouse_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mouse_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s1645821/git/assessment2/Digital-Lab-4/Processor/Processor.sim/sim_1/impl/func/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [/home/s1645821/git/assessment2/Digital-Lab-4/Processor/Processor.sim/sim_1/impl/func/glbl.v:6]

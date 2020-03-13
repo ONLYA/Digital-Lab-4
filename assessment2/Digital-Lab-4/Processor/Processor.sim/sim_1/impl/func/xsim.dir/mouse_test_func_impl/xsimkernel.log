@@ -1,0 +1,7 @@
+Running: xsim.dir/mouse_test_func_impl/xsimk -simmode gui -wdb mouse_test_func_impl.wdb -simrunnum 0 -socket 35499
+Design successfully loaded
+Design Loading Memory Usage: 224344 KB (Peak: 225296 KB)
+Design Loading CPU Usage: 70 ms
+Simulation completed
+Simulation Memory Usage: 367716 KB (Peak: 433252 KB)
+Simulation CPU Usage: 110 ms

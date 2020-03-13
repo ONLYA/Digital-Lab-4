@@ -1,0 +1,7 @@
+// Program Memory, start from pc=0
+00001000 // ji
+00000000
+00000000 // lwa 0h00
+00000010
+11000000 // swa 0hC0
+00001000 // ji
